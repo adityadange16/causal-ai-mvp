@@ -1,8 +1,10 @@
-pandas: 2.2.3
-numpy: 1.26.4
-matplotlib: 3.10.1
-scikit-learn: 1.6.1
-dowhy: 0.13
-transformers: 4.55.2
-torch:2.8.0+cpu
-gym:0.26.2
+pandas== 2.3.2
+numpy== 2.3.3
+matplotlib== 3.10.6
+scikit-learn== 1.7.2
+dowhy== 0.8
+transformers== 4.56.1
+torch==2.8.0
+gym==0.26.2
+fastapi==0.116.1
+uvicorn==0.35.0

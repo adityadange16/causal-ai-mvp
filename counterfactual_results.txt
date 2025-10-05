@@ -1,0 +1,2 @@
+Counterfactuals (Linear Regression): 1.999999866156286
+Propensity Score Matching: Failed due to imbalance or insufficient matches

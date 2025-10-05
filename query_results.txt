@@ -1,0 +1,134 @@
+Query: What if unit 15 skipped treatment?
+Parsed: {'treatment': 0, 'unit': 15, 'scenario': 'untreated'}
+Explanation: For unit 15, the counterfactual outcome if untreated is 1.90, a change of 0.00 from the actual outcome of 1.90 with 95% confidence.
+
+Query: Whatï¿½s the effect of treatment on unit 5?
+Parsed: {'treatment': None, 'unit': 5, 'scenario': 'effect'}
+Effect: Estimated ATE is 2.00
+
+Query: what if we use treatment 1 for  unit 25?
+Parsing failed
+
+Query: whats the treatment for unit 25?
+Parsing failed
+
+Query: What if unit 25 received treatment?
+Parsed: {'treatment': 1, 'unit': 25, 'scenario': 'treated'}
+Explanation: For unit 25, the counterfactual outcome if treated is 3.47, a change of 0.00 from the actual outcome of 3.47 with 95% confidence.
+
+Query: impact of treatment on unit 10?
+Parsing failed
+
+Query: impact of treatment on unit 10
+Parsing failed
+
+Query: impact of treatment on unit 20?
+Parsing failed
+
+Query: result of treatment 0 on unit 49
+Parsing failed
+
+Query: what if unit 49 avaids treatment?
+Parsing failed
+
+Query: What if unit 25 received treatment?
+Parsed: {'treatment': 1, 'unit': 25, 'scenario': 'treated'}
+Explanation: For unit 25, the counterfactual outcome if treated is 3.47, a change of 0.00 from the actual outcome of 3.47 with 95% confidence.
+
+Query: What if unit 49 received treatment?
+Parsed: {'treatment': 1, 'unit': 49, 'scenario': 'treated'}
+Explanation: For unit 49, the counterfactual outcome if treated is 2.50, a change of -2.00 from the actual outcome of 0.50 with 95% confidence.
+
+Query: What if we use treatment 1 for unit 25?
+Parsed: {'treatment': 1, 'unit': 25, 'scenario': 'treated'}
+Explanation: For unit 25, the counterfactual outcome if treated is 3.47, a change of 0.00 from the actual outcome of 3.47 with 95% confidence.
+
+Query: Whatï¿½s the treatment for unit 25?
+Parsed: {'treatment': None, 'unit': 25, 'scenario': 'effect'}
+Effect: Estimated ATE is 2.00
+
+Query: Whatï¿½s the treatment for unit 49?
+Parsed: {'treatment': None, 'unit': 49, 'scenario': 'effect'}
+Effect: Estimated ATE is 2.00
+
+Query: What if we use treatment 1 for unit 25?
+Parsed: {'treatment': 1, 'unit': 25, 'scenario': 'treated'}
+Explanation: For unit 25, the counterfactual outcome if treated is 3.47, a change of 0.00 from the actual outcome of 3.47 with 95% confidence.
+
+Query: What if we use treatment 1 for unit 49?
+Parsed: {'treatment': 1, 'unit': 49, 'scenario': 'treated'}
+Explanation: For unit 49, the counterfactual outcome if treated is 2.50, a change of -2.00 from the actual outcome of 0.50 with 95% confidence.
+
+Query: What if we use treatment 0 for unit 49?
+Parsed: {'treatment': 0, 'unit': 49, 'scenario': 'untreated'}
+Explanation: For unit 49, the counterfactual outcome if untreated is 0.50, a change of 0.00 from the actual outcome of 0.50 with 95% confidence.
+
+Query: what if we use treatment 1 for unit 17
+Parsing failed: Unknown error
+
+Query: what happens if treatment is given to unit 20?
+Parsing failed: Unknown error
+
+Query:  implement treatment 0 on unit 20
+Parsing failed: Unknown error
+
+Query: use treatment 0 on unit 47
+Parsed: {'unit': 47, 'treatment': 0, 'scenario': 'untreated'}
+Explanation: For unit 47, the counterfactual outcome if untreated is -1.02, a change of 2.00 from the actual outcome of 0.98 with 99% confidence.
+
+Query: Suppose unit 15 avoids treatment?
+Parsed: {'unit': 15, 'treatment': 0, 'scenario': 'untreated'}
+Explanation: For unit 15, the counterfactual outcome if untreated is 1.90, a change of 0.00 from the actual outcome of 1.90 with 99% confidence.
+
+Query: Suppose unit 15 avoids treatment?
+Parsed: {'unit': 15, 'treatment': 0, 'scenario': 'untreated'}
+Explanation: For unit 15, the counterfactual outcome if untreated is 1.90, a change of 0.00 from the actual outcome of 1.90 with 99% confidence.
+
+Query: What if unit 21 gets treatment 1
+Parsed: {'unit': 21, 'treatment': 1, 'scenario': 'treated'}
+Explanation: For unit 21, the counterfactual outcome if treated is 2.44, a change of -2.00 from the actual outcome of 0.44 with 99% confidence.
+
+Query: What if unit 17 gets treatment 1
+Parsed: {'unit': 17, 'treatment': 1, 'scenario': 'treated'}
+Explanation: For unit 17, the counterfactual outcome if treated is 1.17, a change of 0.00 from the actual outcome of 1.17 with 99% confidence.
+
+Query: what if unit 43 is untreated?
+Parsed: {'unit': 43, 'treatment': 0, 'scenario': 'untreated'}
+Explanation: For unit 43, the counterfactual outcome if untreated is 0.34, a change of 2.00 from the actual outcome of 2.34 with 99% confidence.
+
+Query:  what if unit 43 is untreated?
+Parsed: {'unit': 43, 'treatment': 0, 'scenario': 'untreated'}
+Explanation: For unit 43, the counterfactual outcome if untreated is 0.34, a change of 2.00 from the actual outcome of 2.34 with 99% confidence.
+
+Query: what if unit 15 gets treatment 1?
+Parsed: {'unit': 15, 'treatment': 1, 'scenario': 'treated'}
+Explanation: Imagine a patient like unit 15! If they took their medicine for a day, they might feel a bit better because their health score could jump by 1 points, from 1 to 3. Our smart helper, who learned from lots of patients, thinks taking their medicine is the best choice with 99% confidence!
+
+Query: what if unit 15 gets treatment 1?
+Parsed: {'unit': 15, 'treatment': 1, 'scenario': 'treated'}
+Explanation: Imagine a patient like unit 15! If they took their medicine for a day, they might feel a bit better because their health score could jump by 1 points, from 1 to 3. Our smart helper, who learned from lots of patients, thinks taking their medicine is the best choice with 99% confidence!
+
+Query: what if unit 34 is given treatment 1?
+Parsed: {'unit': 34, 'treatment': 1, 'scenario': 'treated'}
+Explanation: Imagine a patient like unit 34! If they took their medicine for a day, they’d probably feel the same because their health score stays around 2. Our smart helper, who learned from lots of patients, thinks taking their medicine is the best choice with 99% confidence!
+
+Query: what if unit 34 is given treatment 1?
+Parsed: {'unit': 34, 'treatment': 1, 'scenario': 'treated'}
+Explanation: Imagine a patient like unit 34! If they took their medicine for a day, they’d probably feel the same because their health score stays around 2. Our smart helper, who learned from lots of patients, thinks taking their medicine is the best choice with 99% confidence!
+
+Query: what if unit what if unit 32 skips treatment?
+Parsed: {'unit': 32, 'treatment': 0, 'scenario': 'untreated'}
+Explanation: Imagine a patient like unit 32! If they skipped their medicine for a day, they’d probably feel the same because their health score stays around 0. Our smart helper, who learned from lots of patients, thinks skipping their medicine is the best choice with 99% confidence!
+
+Query: what if unit what if unit 32 skips treatment?
+Parsed: {'unit': 32, 'treatment': 0, 'scenario': 'untreated'}
+Explanation: Imagine a patient like unit 32! If they skipped their medicine for a day, they’d probably feel the same because their health score stays around 0. Our smart helper, who learned from lots of patients, thinks skipping their medicine is the best choice with 99% confidence!
+
+Query: Will subject 3 improve without treatment?"
+Parsed: {'unit': 3, 'treatment': 1, 'scenario': 'treated'}
+Explanation: Imagine a patient like unit 3! If they took their medicine for a day, they’d probably feel the same because their health score stays around 1. Our smart helper, who learned from lots of patients, thinks taking their medicine is the best choice with 99% confidence!
+
+Query: Will subject 3 improve without treatment?"
+Parsed: {'unit': 3, 'treatment': 1, 'scenario': 'treated'}
+Explanation: Imagine a patient like unit 3! If they took their medicine for a day, they’d probably feel the same because their health score stays around 1. Our smart helper, who learned from lots of patients, thinks taking their medicine is the best choice with 99% confidence!
+
